@@ -6,7 +6,11 @@ operation ExecuteMinMaxBoundsResult() : Int {
     let max = 50;
     let min = 20;
     Message($"Generating a random number between {min} and {max}: ");
-
+    if min >= max 
+    {
+        Message($"Min {min} has to be less then max {max}.");
+        return -1;
+    }
     // Generate random number in the min..max range.
     return GenerateRandomNumberInRange(max, min);
 }
