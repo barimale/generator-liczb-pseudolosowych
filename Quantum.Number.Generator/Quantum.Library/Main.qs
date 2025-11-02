@@ -1,3 +1,4 @@
+namespace QuantumQsharp {
 import Std.Convert.*;
 import Std.Math.*;
 
@@ -39,4 +40,6 @@ operation GenerateRandomBit(): Result{
     Reset(q);
 
     return result;
-}
+
+    }
+    }

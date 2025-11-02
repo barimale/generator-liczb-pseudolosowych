@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantum.Number.Generator.UTs", "Quantum.Number.Generator.UTs\Quantum.Number.Generator.UTs.csproj", "{F94EF892-2BDF-415B-9366-B70EA5ECBBBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantum.Library", "Quantum.Library\Quantum.Library.csproj", "{482CB986-CC65-43F0-8814-602A9152C2DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumQsharp", "Quantum.Library\QuantumQsharp.csproj", "{482CB986-CC65-43F0-8814-602A9152C2DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

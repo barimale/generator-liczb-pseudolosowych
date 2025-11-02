@@ -1,4 +1,6 @@
 ﻿using Microsoft.Quantum.Simulation.Simulators;
+using QuantumQsharp;
+
 
 namespace Quantum.Number.Generator
 {
