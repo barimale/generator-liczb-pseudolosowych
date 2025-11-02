@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantum.Number.Generator", "Quantum.Number.Generator\Quantum.Number.Generator.csproj", "{9B9EA032-92FC-48E1-8545-2D726EF8288B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantum.Number.Generator.UTs", "Quantum.Number.Generator.UTs\Quantum.Number.Generator.UTs.csproj", "{F94EF892-2BDF-415B-9366-B70EA5ECBBBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantum.Library", "Quantum.Library\Quantum.Library.csproj", "{482CB986-CC65-43F0-8814-602A9152C2DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B9EA032-92FC-48E1-8545-2D726EF8288B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9EA032-92FC-48E1-8545-2D726EF8288B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9EA032-92FC-48E1-8545-2D726EF8288B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9EA032-92FC-48E1-8545-2D726EF8288B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94EF892-2BDF-415B-9366-B70EA5ECBBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94EF892-2BDF-415B-9366-B70EA5ECBBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94EF892-2BDF-415B-9366-B70EA5ECBBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94EF892-2BDF-415B-9366-B70EA5ECBBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482CB986-CC65-43F0-8814-602A9152C2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482CB986-CC65-43F0-8814-602A9152C2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482CB986-CC65-43F0-8814-602A9152C2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482CB986-CC65-43F0-8814-602A9152C2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8EC3D45-4D7B-4353-B425-CFDFCE58C8FB}
+	EndGlobalSection
+EndGlobal

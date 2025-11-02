@@ -2,12 +2,12 @@ import Std.Convert.*;
 import Std.Math.*;
 
 open Microsoft.Quantum.Intrinsic;
-    open Microsoft.Quantum.Canon;
+open Microsoft.Quantum.Canon;
 
 @EntryPoint()
 operation ExecuteMinMaxBoundsResult() : Int {
-    let max = 50;
-    let min = 20;
+    let max = 150;
+    let min = 10;
     Message($"Generating a random number between {min} and {max}: ");
     if min >= max 
     {
@@ -27,7 +27,7 @@ operation GenerateRandomNumberInRange(max : Int, min: Int) : Int {
     }
 
     let sample = ResultArrayAsInt(bits);
-    
+
     return sample > max or sample <= min ? GenerateRandomNumberInRange(max, min) | sample;
 }
 
@@ -37,6 +37,6 @@ operation GenerateRandomBit(): Result{
 
     let result = M(q);
     Reset(q);
-    
+
     return result;
 }
