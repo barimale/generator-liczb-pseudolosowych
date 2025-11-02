@@ -42,4 +42,4 @@ operation GenerateRandomBit(): Result{
     return result;
 
     }
-    }
+}
